@@ -1,10 +1,10 @@
 # GZNodes for ComfyUI
 
-[English | [中文](./README.cn.md)
+[English | [中文](./README.cn.md)]
 
 ## Introduction
 
-Various custom nodes for ComfyUI
+Various custom nodes for ComfyUI.
 
 ## Installation
 

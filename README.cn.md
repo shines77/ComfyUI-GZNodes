@@ -1,10 +1,10 @@
 # GZNodes for ComfyUI
 
-[[English](./README.md) | [中文](./README.cn.md)
+[[English](./README.md) | [中文](./README.cn.md)]
 
 ## 简介
 
-`ComfyUI` 的各种自定义节点
+`ComfyUI` 的各种自定义节点。
 
 ## 安装
 
