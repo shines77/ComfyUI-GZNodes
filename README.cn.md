@@ -1,6 +1,6 @@
 # GZNodes for ComfyUI
 
-[[English](./README.md) | [中文](./RAEDME.cn.md)
+[[English](./README.md) | [中文](./README.cn.md)
 
 ## 简介
 
