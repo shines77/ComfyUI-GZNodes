@@ -6,7 +6,7 @@
 
 Various custom nodes for `ComfyUI`.
 
-`ComfyUI` offical page: [https://registry.comfy.org/nodes/comfyui-gznodes]()
+`ComfyUI` offical page: [https://registry.comfy.org/nodes/comfyui-gznodes](https://registry.comfy.org/nodes/comfyui-gznodes)
 
 ## Command-line installation
 
@@ -34,6 +34,6 @@ python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-KJNodes
 
 ## Repository
 
-- `GitHub`: [https://github.com/shines77/ComfyUI-GZNodes]()
+- `GitHub`: [https://github.com/shines77/ComfyUI-GZNodes](https://github.com/shines77/ComfyUI-GZNodes)
 
-- `Gitee`: [https://gitee.com/shines77/ComfyUI-GZNodes]()
+- `Gitee`: [https://gitee.com/shines77/ComfyUI-GZNodes](https://gitee.com/shines77/ComfyUI-GZNodes)

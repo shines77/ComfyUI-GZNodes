@@ -6,7 +6,7 @@
 
 `ComfyUI` 的各种自定义节点。
 
-`ComfyUI` 官方页面: [https://registry.comfy.org/nodes/comfyui-gznodes]()
+`ComfyUI` 官方页面: [https://registry.comfy.org/nodes/comfyui-gznodes](https://registry.comfy.org/nodes/comfyui-gznodes)
 
 ## 命令行安装
 
@@ -34,6 +34,6 @@ python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-KJNodes
 
 ## Git 仓库
 
-- `GitHub`: [https://github.com/shines77/ComfyUI-GZNodes]()
+- `GitHub`: [https://github.com/shines77/ComfyUI-GZNodes](https://github.com/shines77/ComfyUI-GZNodes)
 
-- `Gitee`: [https://gitee.com/shines77/ComfyUI-GZNodes]()
+- `Gitee`: [https://gitee.com/shines77/ComfyUI-GZNodes](https://gitee.com/shines77/ComfyUI-GZNodes)
