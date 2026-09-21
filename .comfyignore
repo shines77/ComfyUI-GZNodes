@@ -219,11 +219,34 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Development-only assets
-docs/
-tests/
+# Files excluded from the published ComfyUI Registry package.
+.git/
+.github/
+.gitignore
+.comfyignore
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Dev/large media should never be shipped in the node package.
+*.blend
+*.blend1
+*.wav
+*.mp4
+*.mov
 *.psd
 *.zip
 *.rar
+
+# README/showcase images render on GitHub/Registry from the repo, so they don't
+# need to bloat the installed package (the example .json still ships).
+docs/workflows/*.png
+docs/workflows/*.jpg
+
+# Development-only assets
+docs/
+tests/
 .vscode/
 .obsidian/
