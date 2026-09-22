@@ -76,10 +76,11 @@ NODE_CONFIG = {
 
 ## minimax-h3: minimax_h3_image_latent
 try:
-    from .nodes.minimax_h3_image_latent import (
-        NODE_CLASS_MAPPINGS as _CLASSES,
-        NODE_DISPLAY_NAME_MAPPINGS as _NAMES,
-    )
+    ## from .nodes.minimax_h3_image_latent import (
+    ##     NODE_CLASS_MAPPINGS as _CLASSES,
+    ##     NODE_DISPLAY_NAME_MAPPINGS as _NAMES,
+    ## )
+    from .nodes.minimax_h3_image_latent import GzMiniMaxH3ImageLatent
 except Exception as ex:
     logger.warning(f"GZNodes: MiniMax H3 nodes could not be imported. MiniMax nodes will be unavailable. Error: {e}", exc_info=True)
     UNAVAILABLE_NODE_PACKAGES["minimax_h3_image_latent"] = f"GZNodes: MiniMax H3 nodes could not be imported. MiniMax H3 nodes will be unavailable. Error: {e}"
