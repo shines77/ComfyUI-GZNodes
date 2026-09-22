@@ -7,10 +7,11 @@
 name = "comfyui-gznodes"
 # Custom Node version. Must be semantically versioned.
 description = "Various quality of life -nodes for ComfyUI, mostly just visual stuff to improve usability."
-version = "1.0.3"
-# Filled in from requirements.txt
+version = "1.0.4"
 license = {file = "LICENSE"}
-dynamic = ["dependencies"]
+# Filled in from requirements.txt
+dynamic = []
+## dynamic = ["dependencies"]
 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
@@ -30,7 +31,7 @@ dynamic = ["dependencies"]
 # ]
 
 [tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
+# dependencies = {file = ["requirements.txt"]}
 
 [project.urls]
 Repository = "https://github.com/shines77/ComfyUI-GZNodes"
