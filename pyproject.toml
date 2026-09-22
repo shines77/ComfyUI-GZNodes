@@ -1,3 +1,7 @@
+##
+## From: https://docs.comfy.org/registry/specifications
+##
+
 [project]
 # Unique identifier for your node. Immutable after creation.
 name = "comfyui-gznodes"
@@ -6,6 +10,7 @@ description = "Various quality of life -nodes for ComfyUI, mostly just visual st
 version = "1.0.1"
 # Filled in from requirements.txt
 license = {file = "LICENSE"}
+dynamic = ["dependencies"]
 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
@@ -23,7 +28,9 @@ license = {file = "LICENSE"}
 #     "Environment :: NPU :: Huawei Ascend",  # Huawei Ascend support
 #     "Environment :: GPU :: Apple Metal",    # Apple Metal support
 # ]
-dependencies = []
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 [project.urls]
 Repository = "https://github.com/shines77/ComfyUI-GZNodes"
@@ -32,10 +39,11 @@ Documentation = "https://github.com/shines77/ComfyUI-GZNodes/wiki"
 "Bug Tracker" = "https://github.com/shines77/ComfyUI-GZNodes/issues"
 
 [tool.comfy]
-# TODO (fill in Publisher ID from Comfy Registry Website).
-PublisherId = "guozi"
+# Your unique publisher identifier, typically matching your GitHub username.
+PublisherId = "shines77"
 # Display name for the Custom Node. Can be changed later.
 DisplayName = "ComfyUI-GZNodes"
 Icon = "https://avatars.githubusercontent.com/u/2806664"
 includes = []
 # "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
+requires-comfyui = ">=1.0.0"  # ComfyUI version compatibility
