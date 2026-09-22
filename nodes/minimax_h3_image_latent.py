@@ -15,7 +15,7 @@ class GzMiniMaxH3ImageLatent:
         return {
             "required": {
                 "width": ("INT", {"default": 2048, "min": 32, "max": 8192, "step": 32, "tooltip": "Output image width"}),
-                "height": ("INT", {"default": 2048, "min": 32, "max": 8192, "step": 32, "tooltip": "Output image height"}}),
+                "height": ("INT", {"default": 2048, "min": 32, "max": 8192, "step": 32, "tooltip": "Output image height"}),
             },
         }
 

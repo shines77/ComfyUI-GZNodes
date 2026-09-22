@@ -12,14 +12,6 @@ from comfy_api.latest import io, ui
 import logging
 
 class GzMiniMaxH3ImageLatent(io.ComfyNode):
-    @classmethod
-    def INPUT_TYPES(cls):
-        return {
-            "required": {
-                "width": ("INT", {"default": 2048, "min": 32, "max": 8192, "step": 32}),
-                "height": ("INT", {"default": 2048, "min": 32, "max": 8192, "step": 32}),
-            },
-        }
 
     @classmethod
     def define_schema(cls):
