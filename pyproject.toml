@@ -29,7 +29,7 @@ Documentation = "https://github.com/shines77/ComfyUI-GZNodes/wiki"
 "Bug Tracker" = "https://github.com/shines77/ComfyUI-GZNodes/issues"
 
 [tool.comfy]
-PublisherId = "shines77"
+PublisherId = "guozi"
 DisplayName = "ComfyUI-GZNodes"
 Icon = "https://avatars.githubusercontent.com/u/2806664"
 includes = []
