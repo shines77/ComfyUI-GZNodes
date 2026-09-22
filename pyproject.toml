@@ -1,7 +1,10 @@
 [project]
+# Unique identifier for your node. Immutable after creation.
 name = "comfyui-gznodes"
+# Custom Node version. Must be semantically versioned.
 description = "Various quality of life -nodes for ComfyUI, mostly just visual stuff to improve usability."
-version = "1.0.0"
+version = "1.0.1"
+# Filled in from requirements.txt
 license = {file = "LICENSE"}
 
 # classifiers = [
@@ -29,7 +32,9 @@ Documentation = "https://github.com/shines77/ComfyUI-GZNodes/wiki"
 "Bug Tracker" = "https://github.com/shines77/ComfyUI-GZNodes/issues"
 
 [tool.comfy]
+# TODO (fill in Publisher ID from Comfy Registry Website).
 PublisherId = "guozi"
+# Display name for the Custom Node. Can be changed later.
 DisplayName = "ComfyUI-GZNodes"
 Icon = "https://avatars.githubusercontent.com/u/2806664"
 includes = []
